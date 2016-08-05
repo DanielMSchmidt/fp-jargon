@@ -1,0 +1,10 @@
+.backButton {
+  position: absolute;
+  top: 0;
+}
+
+.content {
+  height: 100vh;
+  overflow: scroll;
+  padding-top: 70px;
+}
