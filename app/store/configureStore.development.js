@@ -5,10 +5,11 @@ import { hashHistory } from 'react-router';
 import { routerMiddleware, push } from 'react-router-redux';
 import rootReducer from '../reducers';
 
-import * as counterActions from '../actions/counter';
+import {onFail, onSuccess} from '../reducers/quiz';
 
 const actionCreators = {
-  ...counterActions,
+  onFail,
+  onSuccess,
   push,
 };
 

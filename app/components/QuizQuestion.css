@@ -1,0 +1,17 @@
+.listItem {
+  margin-bottom: 20px;
+}
+
+.correctListItem a {
+  color: #0F0;
+}
+
+.wrongListItem a {
+  color: #F00;
+}
+
+.score {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
